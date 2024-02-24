@@ -8,12 +8,13 @@ pluginManagement {
 }
 
 dependencyResolutionManagement {
+    @Suppress("UnstableApiUsage")
     repositories {
         google()
         mavenCentral()
     }
 }
 
-rootProject.name = "My_Application"
+rootProject.name = "KMP-Bugreport"
 include(":androidApp")
 include(":shared")
